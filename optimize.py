@@ -13,7 +13,7 @@ from argparse import ArgumentParser
 # #############################################################################
 
 rpdxExe            = "rpdx"
-outputFormats      = ["glb", "gltf"]
+outputFormats      = ["glb", "gltf", "usdz"]
 
 
 # #############################################################################
@@ -65,7 +65,7 @@ else:
 # #############################################################################
 
 # specify all accepted extensions here (as lower case, other cases will be automatically accepted as well)
-collectedExtensions = [".glb", ".gltf", ".stp", ".obj", ".ply", ".fbx"]
+collectedExtensions = [".glb", ".gltf", ".stp", ".step", ".obj", ".ply", ".fbx", ".usd", ".usdz", ".usdc", ".usda", ".stl", ".igs", ".iges"]
 
 inputFiles = []
 #dirsToProcess = [inputDirectory]
